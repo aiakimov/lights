@@ -1,9 +1,10 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import "./Lights.css";
 
 interface Props {
   amount: number;
   maxSize: number;
+  children?: React.ReactNode;
 }
 type amountLights = {
   number: number;
