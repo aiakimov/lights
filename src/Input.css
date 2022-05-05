@@ -1,0 +1,53 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+button {
+  background-color: rgb(149, 150, 151);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.781);
+  font-weight: 600;
+  font-size: 18px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+button:hover {
+  box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.651);
+  background-color: rgb(199, 199, 199);
+  color: rgb(5, 6, 7);
+}
+button:active {
+  box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+label {
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+input {
+  background-color: white;
+  border: 1px solid rgb(117, 117, 117);
+  box-shadow: 0 0 8px 1px rgba(255, 255, 255, 0.637);
+  padding: 10px 30px;
+  font-size: 22px;
+  border-radius: 20px;
+  color: rgb(24, 25, 26);
+  min-width: 100px;
+}
+input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}

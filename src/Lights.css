@@ -1,9 +1,11 @@
 .lights-wrapper {
-  height: 100vh;
-  width: 100vw;
+  height: 60vh;
+  width: 50vw;
   position: relative;
   background: rgb(0, 0, 0);
-  margin-bottom: -30px;
+  overflow: hidden;
+  box-shadow: 0 0 25px 2px rgba(255, 255, 255, 0.582);
+  border-radius: 30px;
 }
 .lights-item {
   background-color: azure;
@@ -12,6 +14,7 @@
   animation: ease-in infinite;
   animation-name: Lights;
   box-shadow: 0px 0 10px 2px azure;
+  border: 1px solid white;
 }
 
 @keyframes Lights {
@@ -29,6 +32,6 @@
   100% {
     box-shadow: 0 0 10px 2px rgb(255, 255, 255);
 
-    transform: translateY(100vh);
+    transform: translateY(calc(60vh + 100px));
   }
 }
