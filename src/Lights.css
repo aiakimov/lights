@@ -32,6 +32,6 @@
   100% {
     box-shadow: 0 0 10px 2px rgb(255, 255, 255);
 
-    transform: translateY(calc(60vh + 100px));
+    transform: translateY(calc(60vh + 110px));
   }
 }
