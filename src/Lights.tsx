@@ -42,7 +42,7 @@ const Lights: FC<Props> = ({ amount, maxSize }) => {
       number: i,
       size: getRandomArbitrary(maxSize / 5, maxSize) + "px",
       async: getRandomInt(amount / 3) + "s",
-      positionX: getRandomInt(window.innerWidth * 0.5 - maxSize / 2) + "px",
+      positionX: getRandomInt(window.innerWidth * 0.5 - maxSize) + "px",
       positionY: `-${maxSize + 10}px`,
       opacity: getRandomArbitrary(0.5, 1),
       animationDuration: getRandomArbitrary(15, 30) + "s",
